@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Bujeraco
+Comment=Arcade-style game by Francisco Álvarez Martínez
+Exec=bujeraco
+Icon=com.as-sistemas.bujeraco
+Terminal=false
+Type=Application
+Categories=Game;
