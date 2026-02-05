@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.as-sistemas.bujeraco</id>
+  <name>Bujeraco</name>
+  <summary>Juego arcade retro donde controlas una singularidad cuántica española en un experimento caótico</summary>
+
+  <description>
+    <p>Bujeraco es un juego arcade retro desarrollado por Francisco Álvarez Martínez (AS-Sistemas). Controlas una singularidad cuántica contenida en un Terreno Cuántico Controlado por científicos españoles, con el objetivo de sobrevivir absorbiendo energía en un entorno cada vez más caótico.</p>
+    <p>Potencias extranjeras interfieren: un dron chino de contención te persigue, Mark Rover (EE.UU.) coloca bombas cuánticas camufladas, y Némesis (Rusia) es una singularidad inestable y agresiva. Incluye niveles de Desajuste Cuántico (en números primos >5) con anomalías exclusivas, y contaminación residual si abandonas en ellos.</p>
+    <p>Modos: Solitario (sin enemigos ni música) y Arcade (con todo el caos, requiere licencia de 4€ vía PayPal para desbloquear).</p>
+    <p>Música original registrada en SAFE Creative (2601044179202) y SGAE. Juego registrado en SAFE Creative (2601094223771). Todos los derechos reservados © 2026 AS-Sistemas®.</p>
+    <p>Demostración en vídeo: https://www.youtube.com/watch?v=9jS8fm79JS8</p>
+  </description>
+
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+
+  <developer_name>Francisco Álvarez Martínez (AS-Sistemas)</developer_name>
+  <url type="homepage">https://bujeraco.com</url>
+
+  <launchable type="desktop-id">com.as-sistemas.bujeraco.desktop</launchable>
+
+  <provides>
+    <binary>bujeraco</binary>
+  </provides>
+
+<releases>
+    <release version="1.0.0" date="2026-02-05">
+      <description>
+        <p>Versión inicial pública de Bujeraco con modo Solitario y soporte para licencia Arcade.</p>
+      </description>
+      <url type="details">https://bujeraco.com</url>
+      <url type="release-notes">https://bujeraco.com</url>
+    </release>
+  </releases>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://i.ytimg.com/vi/9jS8fm79JS8/maxresdefault.jpg</image>
+      <caption>Jugabilidad principal en el Terreno Cuántico Controlado</caption>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars">
+    <content_attribute id="violence-cartoon">moderate</content_attribute>
+    <content_attribute id="violence-fantasy">mild</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="drugs">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-hate">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+    <content_attribute id="money-purchasing">mild</content_attribute> <!-- por el pago de licencia -->
+    <content_attribute id="money-advertising">none</content_attribute>
+  </content_rating>
+
+</component>
