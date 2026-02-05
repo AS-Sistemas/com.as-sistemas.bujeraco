@@ -18,7 +18,8 @@
       "build-commands": [
         "install -Dm755 bujeraco.bin /app/bin/bujeraco",
         "install -Dm644 com.as-sistemas.bujeraco.desktop /app/share/applications/com.as-sistemas.bujeraco.desktop",
-        "install -Dm644 com.as-sistemas.bujeraco.png /app/share/icons/hicolor/256x256/apps/com.as-sistemas.bujeraco.png"
+        "install -Dm644 com.as-sistemas.bujeraco.png /app/share/icons/hicolor/256x256/apps/com.as-sistemas.bujeraco.png",
+        "install -Dm644 com.as-sistemas.bujeraco.metainfo.xml /app/share/metainfo/com.as-sistemas.bujeraco.metainfo.xml"
       ],
       "sources": [
         {
@@ -32,6 +33,11 @@
         {
           "type": "file",
           "path": "com.as-sistemas.bujeraco.png"
+        },
+        {
+          "type": "file",
+          "path": "com.as-sistemas.bujeraco.metainfo.xml",
+          "sha256": "33566d05d38b5d838b3cde6a2462c07ac4c62da2bdc1ffbe43708da434412a7c"
         }
       ]
     }
